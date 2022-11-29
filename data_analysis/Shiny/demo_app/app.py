@@ -26,3 +26,6 @@ def server(input, output, session):
 
 
 app = App(app_ui, server, debug=True)
+
+# Execute
+# python3 -m shiny run --port 8000 --reload "/Users/phongbui/Documents/GitHub/data_analysis/Shiny/demo_app/app.py"
