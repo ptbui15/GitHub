@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  jupyterlab:
+    image: jupyterlab
+    container_name: jupyterlab
+    ports:
+      - 8888:8888
+    volumes:
+      - shared-workspace:/opt/workspace
+
+volumes:
+  shared-workspace:
+    name: "hadoop-distributed-file-system"
+    driver: local
