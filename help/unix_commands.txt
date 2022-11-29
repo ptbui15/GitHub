@@ -1,0 +1,26 @@
+### PIP ###
+pip3 list
+
+# Virtual environment
+python3 -m venv {name}
+
+# Show open ports
+sudo lsof -i -P -n | grep LISTEN
+
+# Set environment variables
+export FLASK_APP=project
+
+# Unset environmetn variables
+unset FLASK_APP=project
+
+# SSH as root into container
+docker exec -u 0 -it mycontainer bash
+
+# Docker compose Spark to scale
+docker-compose -f docker-compose-spark.yaml up --scale spark-worker=3
+
+# Copy from - to
+docker cp <containerId>:/file/path/within/container /host/path/target
+
+# Change environment variables
+vim ~/.zshrc
