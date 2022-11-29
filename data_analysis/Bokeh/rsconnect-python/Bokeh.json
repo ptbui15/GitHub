@@ -1,0 +1,11 @@
+{
+    "https://rconnectwfa.hersheys.com": {
+        "server_url": "https://rconnectwfa.hersheys.com",
+        "filename": "/Users/phongbui/Documents/GitHub/learn_python/Bokeh",
+        "app_url": "https://rconnectwfa.hersheys.com/content/9fe3f579-b80c-4c64-b5ae-24fd9e7c8fba/",
+        "app_id": 538,
+        "app_guid": "9fe3f579-b80c-4c64-b5ae-24fd9e7c8fba",
+        "title": "Bokeh",
+        "app_mode": "python-bokeh"
+    }
+}
